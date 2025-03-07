@@ -2,6 +2,8 @@ function validate(){
     let name=document.querySelector('#name').value
     let email=document.querySelector('#email').value
     let age=document.querySelector('#age').value
+    let pass=document.querySelector('#password').value
+    let contact=document.querySelector('#contact').value
     if (name==""){
         let errorr=document.querySelector('#errorname')
         errorr.innerHTML="Please enter your name"
@@ -13,16 +15,12 @@ function validate(){
         document.querySelector('#name').focus()
         return false
     }
-    else if(!(email.includes('@gmail.com''@yahoo.in'))){
+    else if(!(email.includes('@gmail.com'||'@yahoo.in'))){
         alert("Please enter valid email must have @gmail.com")
         document.querySelector('#email').focus()
         return false
     }
-    // else if(!(email.includes('@yahoo.in'))){
-    //     alert("Please enter valid email must have @yahoo.in")
-    //     document.querySelector('#email').focus()
-    //     return false
-    // }
+   
     else if (age==""){
         alert("Please input your age")
         document.querySelector('#name').focus()
@@ -33,14 +31,25 @@ function validate(){
         document.querySelector('#name').focus()
         return false
     }
-
-
-    //we take input of a number it is taken as string in js but isNAN function converts it to number then test 
-
-
-
-
-
-
-    // this function asks "is age not a number" and return value true in else if ,in else it will return value false
+    else if(pass==""){
+        alert("please fill password")
+        document.querySelector('#password').focus()
+        return false
+    }
+    else if(!(pass.match(/[~!@#$%^&*_+]/))){
+        alert("please enter special character")
+        document.querySelector('#password').focus()
+        return false
+    }
+    else if(contact==""){
+        alert("please fill contact")
+        document.querySelector('#contact').focus()
+        return false
+    }
+    else if(contact.length>10 || contact.length<10){
+        alert("please fill 10 digit number")
+        document.querySelector('#contact').focus()
+        return false
+    }
+    
 }

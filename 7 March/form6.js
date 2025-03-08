@@ -11,7 +11,8 @@ function validate(){
         return false
     }
     else if (email==""){
-        alert("Please input your email")
+        let errorr=document.querySelector('#errorname')
+        errorr.innerHTML="Please enter your email"
         document.querySelector('#name').focus()
         return false
     }
@@ -36,7 +37,7 @@ function validate(){
         document.querySelector('#password').focus()
         return false
     }
-    else if(!(pass.match(/[~!@#$%^&*_+]/))){
+    else if(!(pass.match(/[!@#$%^&*_+]/))){
         alert("please enter special character")
         document.querySelector('#password').focus()
         return false

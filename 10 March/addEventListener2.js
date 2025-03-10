@@ -1,0 +1,6 @@
+let btn=document.querySelector('#doublebtn')
+btn.addEventListener('dblclick',()=>{alert("Hello")})
+let btn2=document.querySelector('#enterbtn')
+btn.addEventListener('mouseenter',()=>{alert("Hello")})
+let btn3=document.querySelector('#leavebtn')
+btn.addEventListener('mouseleave',()=>{alert("Hello")})

@@ -1,0 +1,1 @@
+let ar[]=[parseInt(prompt("Enter number"))]

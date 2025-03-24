@@ -16,7 +16,7 @@ function validate(){
         document.querySelector('#name').focus()
         return false
     }
-    else if(!(email.includes('@gmail.com'||'@yahoo.in'))){
+    else if(!(email.includes('@gmail.com'||email.includes'@yahoo.in'))){
         alert("Please enter valid email must have @gmail.com")
         document.querySelector('#email').focus()
         return false

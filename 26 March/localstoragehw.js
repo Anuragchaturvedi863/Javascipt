@@ -11,9 +11,7 @@ localStorage.setItem("userdata",JSON.stringify(obj))
 let user = JSON.parse(localStorage.getItem('userdata'))
 console.log(user.name)
 
-return false
-
-
+return false // it terminates the function
 
 
 }

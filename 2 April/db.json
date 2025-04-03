@@ -1,0 +1,14 @@
+    {
+        "hotel":[
+            {
+                "name": "Anurag",
+                "age" : 25
+            },{
+                "name": "Akash",
+                "age": 26
+            },{
+                "name": "Gaurav",
+                "age": 27
+            }
+        ]
+    }

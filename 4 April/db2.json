@@ -1,0 +1,36 @@
+{
+    "college": [
+        {
+        "name" : "Devendra",
+        "age"  : "25",
+        "course" : "mbbs",
+        "mobileno" : "9039845895",
+        "aadharno" : "4561237895",
+        "person" : 5,
+        "fees" : 50000
+
+        },
+        {
+        "name" : "Anurag",
+        "age"  : "28",
+        "course" : "web",
+        "mobileno" : "8982184692",
+        "aadharno" : "123456781234",
+        "person" : 5,
+        "fees" : 60000
+
+        },
+    
+        {
+        "name" : "Akash",
+        "age"  : "24",
+        "course" : "bcom",
+        "mobileno" : "9752801044",
+        "aadharno" : "7410258963",
+        "person" : 5,
+        "fees" : 10000
+
+        }
+    ]
+    
+}

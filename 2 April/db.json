@@ -1,14 +1,14 @@
+{
+  "hotel": [
     {
-        "hotel":[
-            {
-                "name": "Anurag",
-                "age" : 25
-            },{
-                "name": "Akash",
-                "age": 26
-            },{
-                "name": "Gaurav",
-                "age": 27
-            }
-        ]
+      "name": "Akash",
+      "age": 26,
+      "id": "0c07"
+    },
+    {
+      "name": "Gaurav",
+      "age": 27,
+      "id": "969f"
     }
+  ]
+}

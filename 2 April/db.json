@@ -3,17 +3,38 @@
     {
       "name": "anurag",
       "age": "14",
-      "id": "0c07"
+      "adharNo": "252525252525",
+      "checkin": "01-02-2023",
+      "checkout": "04-02-2023",
+      "mobileno": "3215698521",
+      "person": "5",
+      "price": "5000",
+      "country": "India",
+      "id": "0c07" 
     },
     {
       "name": "Gaurav",
       "age": "28",
+      "adharNo": "252525252525",
+      "checkin": "01-02-2023",
+      "checkout": "04-02-2023",
+      "mobileno": "3215698521",
+      "person": "5",
+      "price": "5000",
+      "country": "India",
       "id": "969f"
     },
     {
       "id": "1b03",
       "name": "a1",
-      "age": "1"
+      "age": "1",
+      "adharNo": "252525252524",
+      "checkin": "01-02-2023",
+      "checkout": "04-02-2023",
+      "mobileno": "3215698521",
+      "person": "5",
+      "price": "5000",
+      "country": "India",
     }
   ]
 }
